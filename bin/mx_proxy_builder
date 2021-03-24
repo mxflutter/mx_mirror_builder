@@ -1,0 +1,3 @@
+BIN=$(cd "$(dirname "$0")";pwd)
+dart $BIN/cli.dill $*
+# dart $BIN/cli.dart $*
